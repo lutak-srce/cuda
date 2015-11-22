@@ -1,0 +1,8 @@
+#%Module 1.0
+#
+#  cuda module for use with 'environment-modules' package:
+#
+conflict                cuda
+setenv                  CUDA_HOME       /usr/local/cuda-5.5
+prepend-path            PATH            /usr/local/cuda-5.5/bin
+prepend-path            LD_LIBRARY_PATH /usr/local/cuda-5.5/lib64
